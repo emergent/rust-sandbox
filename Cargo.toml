@@ -7,3 +7,10 @@ edition = "2018"
 [dependencies]
 crossbeam = "*"
 num = "*"
+
+[dev-dependencies]
+criterion = "0.2"
+
+[[bench]]
+name = "bench"
+harness = false
