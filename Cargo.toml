@@ -7,6 +7,8 @@ edition = "2018"
 [dependencies]
 crossbeam = "*"
 num = "*"
+log = "*"
+syslog = "*"
 
 [dev-dependencies]
 criterion = "0.2"
