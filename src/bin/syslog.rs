@@ -1,7 +1,4 @@
-#[macro_use]
-extern crate log;
-extern crate syslog;
-
+use log::{debug, error};
 use syslog::{Error, Facility};
 
 fn main() -> Result<(), Error> {
