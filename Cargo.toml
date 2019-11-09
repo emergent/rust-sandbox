@@ -9,6 +9,10 @@ crossbeam = "*"
 num = "*"
 log = "*"
 syslog = "*"
+time = "*"
+chrono = "*"
+tokio = "0.2.0-alpha.6"
+tokio-timer = "0.3.0-alpha.5"
 
 [dev-dependencies]
 criterion = "0.2"
