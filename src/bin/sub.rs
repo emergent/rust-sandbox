@@ -7,8 +7,14 @@ fn main() {
     let z = X - Y;
     */
 
+    /* runtime error
     let x: u32 = 1;
     let y: u32 = 2;
-    let z = x - y; // runtime error
+    let z = x - y;
+    */
+
+    let x: i32 = 1;
+    let y: i32 = 2;
+    let z = x - y;
     println!("{}", z);
 }
