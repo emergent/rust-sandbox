@@ -1,5 +1,5 @@
 use std::io;
-use std::io::{BufRead, BufReader};
+use std::io::BufRead;
 
 fn main() {
     let stdin = io::stdin();

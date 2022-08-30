@@ -1,4 +1,4 @@
-type CB = FnMut(i32, i32);
+type CB = dyn FnMut(i32, i32);
 
 struct Processor {
     callback: Box<CB>,

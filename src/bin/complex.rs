@@ -1,5 +1,5 @@
 use num::complex::Complex;
-use std::f64::consts::{E, PI};
+use std::f64::consts::PI;
 
 fn main() {
     let c1 = Complex::new(10, 20);

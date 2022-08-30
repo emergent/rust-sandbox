@@ -1,6 +1,6 @@
 extern crate crossbeam;
 
-type CB = FnMut(i32, i32) -> i32 + Send + Sync + 'static;
+type CB = dyn FnMut(i32, i32) -> i32 + Send + Sync + 'static;
 
 struct Processor {
     callback: Box<CB>,
